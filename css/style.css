@@ -867,6 +867,7 @@ a.contact__value:hover { color: #8FB8E8; }
   :root { --header-h: 60px; }
 
   .br-m { display: inline; }
+  .hero__scroll { display: none; }
 
   /* nav → full overlay */
   .header__toggle { display: flex; }
@@ -924,7 +925,7 @@ a.contact__value:hover { color: #8FB8E8; }
 
   .section__inner, .hero__inner, .header__inner { padding-left: 20px; padding-right: 20px; }
 
-  .hero__title { font-size: clamp(44px, 15vw, 64px); }
+  .hero__title { font-size: clamp(44px, 15vw, 48px); }
   .hero__title-line--outline { -webkit-text-stroke-width: 1.5px; }
   .hero__desc { font-size: 17px; }
   .hero__tag { font-size: 11px; padding: 7px 13px; }
