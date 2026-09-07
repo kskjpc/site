@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="원현경 포트폴리오 — 채널 운영 경험과 직접 만든 영상·카드뉴스" />
+  <title>WON HYUNGYEONG — PORTFOLIO</title>
+
+  <!-- Fonts : Pretendard (KR) / Archivo (EN) -->
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css?v=6" />
+</head>
+<body id="top">
+
+  <!-- ===== Scroll Progress ===== -->
+  <div class="progress" aria-hidden="true"><span class="progress__bar" id="progressBar"></span></div>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#top" class="header__logo" aria-label="맨 위로 이동">
+        WHG<span class="header__logo-dot">.</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="주요 메뉴">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#hero"    class="nav__link is-active" data-nav="hero">HOME</a></li>
+          <li class="nav__item"><a href="#about"   class="nav__link" data-nav="about">ABOUT</a></li>
+          <li class="nav__item"><a href="#career"  class="nav__link" data-nav="career">CAREER</a></li>
+          <li class="nav__item"><a href="#project" class="nav__link" data-nav="project">PROJECT</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link" data-nav="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="header__toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
+        <span class="header__toggle-bar"></span>
+        <span class="header__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow reveal">PORTFOLIO · 2026</p>
+
+        <h1 class="hero__title">
+          <span class="hero__title-line reveal" data-delay="1">PORTFOLIO</span>
+        </h1>
+
+        <p class="hero__desc reveal" data-delay="3">
+          이야기를 어떻게 전달할지 늘 고민해온 마케터입니다.<br class="br-m" />
+          채널을 기획하고 운영하며 직접 <strong>기획·촬영·편집한 영상과 카드뉴스</strong>로<br />
+          브랜드의 이야기를 만들어 왔습니다.
+        </p>
+
+        <div class="hero__tags reveal" data-delay="4">
+          <span class="hero__tag">CONTENT PLANNING</span>
+          <span class="hero__tag">VIDEO EDITING</span>
+          <span class="hero__tag">CARD NEWS</span>
+          <span class="hero__tag">CHANNEL OPERATION</span>
+          <span class="hero__tag">COPYWRITING</span>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="아래로 스크롤">
+        <span class="hero__scroll-label">SCROLL</span>
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">ABOUT</p>
+          <h2 class="section__title">채널 하나를 처음부터 끝까지,<br />이제는 화면 하나를 처음부터 끝까지.</h2>
+        </header>
+
+        <div class="about__body">
+          <!-- Photo -->
+          <figure class="about__photo reveal">
+            <div class="about__photo-frame">
+              <img src="images/profile.png" alt="원현경 프로필 사진" class="about__photo-img"
+                   onerror="this.classList.add('is-hidden')" />
+              <span class="about__photo-placeholder" aria-hidden="true">PHOTO</span>
+            </div>
+            <figcaption class="about__photo-caption">WON HYUNGYEONG · SEOUL</figcaption>
+          </figure>
+
+          <!-- Text -->
+          <div class="about__text">
+            <p class="about__para reveal">
+              비영리법인에서 회계로 사회생활을 시작해, 디자인 역량을 인정받아 홍보물 제작을 맡았고,
+              2020년부터는 4인 규모 법인의 온라인 홍보를 <strong>혼자 전담</strong>했습니다.
+              카카오채널 기획·제작·발송, Wix 홈페이지 리뉴얼, 목적별 영상 제작까지 —
+              채널 운영의 A부터 Z를 책임지며 <strong>전체 그림을 보는 눈</strong>을 길렀습니다.
+            </p>
+            <p class="about__para reveal">
+              콘텐츠를 만들수록 그것이 놓이는 <strong>화면 자체</strong>를 만들고 싶어졌습니다.
+              낯선 일도 스스로 파고들어 끝까지 완결 짓는 실행력으로 HTML·CSS·JavaScript를 학습했고,
+              감정 큐레이션 서비스부터 커머스 랜딩, 예약형 통합 플래너 데모까지 네 개의 반응형 프로젝트를 완성했습니다.
+              매뉴얼이 없는 상황에서도 방법을 찾아 결과를 만드는 것, 그것이 제 방식입니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="about__skills">
+          <h3 class="about__skills-title reveal">SKILLS</h3>
+          <div class="skills">
+            <div class="skills__group reveal">
+              <p class="skills__label">MARKUP &amp; STYLE</p>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/html5.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">HTML5</strong>
+                    <span class="skills__item-desc">시맨틱 태그 · 웹 표준 · 웹 접근성</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/css3.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">CSS3</strong>
+                    <span class="skills__item-desc">Flexbox · Grid · 미디어쿼리 · 반응형</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__group reveal">
+              <p class="skills__label">SCRIPT</p>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/javascript.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">JavaScript</strong>
+                    <span class="skills__item-desc">DOM · 이벤트 · 비동기</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/jquery.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">jQuery</strong>
+                    <span class="skills__item-desc">동적 UI · 슬라이더 · 애니메이션</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/react.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">React</strong>
+                    <span class="skills__item-desc">컴포넌트 · useState 기초</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__group reveal">
+              <p class="skills__label">DESIGN TOOL</p>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/photoshop.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Photoshop</strong>
+                    <span class="skills__item-desc">보정 · 합성 · 웹 최적화</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/illustrator.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Illustrator</strong>
+                    <span class="skills__item-desc">벡터 · UI 에셋</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/premiere.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Premiere</strong>
+                    <span class="skills__item-desc">컷 편집 · 자막 · 색보정</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/figma.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Figma</strong>
+                    <span class="skills__item-desc">와이어프레임 · 시안 · 협업</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__group reveal">
+              <p class="skills__label">ETC</p>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/git.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Git</strong>
+                    <span class="skills__item-desc">버전 관리</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/github.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">GitHub</strong>
+                    <span class="skills__item-desc">협업 · 이슈 관리</span>
+                  </span>
+                </li>
+                <li class="skills__item">
+                  <span class="skills__icon"><img src="images/icons/wix.svg" alt="" class="skills__icon-img" /></span>
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">Wix</strong>
+                    <span class="skills__item-desc">사이트 제작 · 운영</span>
+                  </span>
+                </li>
+                <li class="skills__item skills__item--noicon">
+                  <span class="skills__item-body">
+                    <strong class="skills__item-name">채널 운영</strong>
+                    <span class="skills__item-desc">카피라이팅 · 보도자료 · 채널 운영</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAREER ===== -->
+    <section class="career section section--tint" id="career">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">CAREER</p>
+          <h2 class="section__title">일해온 시간이 곧 태도입니다.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <p class="timeline__period">2020.12 — 2026.01</p>
+            <div class="timeline__body">
+              <h3 class="timeline__company">이랜드 아시안미션 <span class="timeline__dept">홍보팀</span></h3>
+              <ul class="timeline__tasks">
+                <li class="timeline__task">법인 온라인 홍보 전담 — 보도자료 작성, 기자단 관리, 대외 커뮤니케이션</li>
+                <li class="timeline__task">카카오채널 월 2회 정기 발송 — 썸네일 디자인·카피·발송 전 과정 단독 운영</li>
+                <li class="timeline__task">법인 홈페이지 리뉴얼 집행 및 법인 소개·후원 독려·이주민 이야기 영상 제작</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <p class="timeline__period">2020.09 — 2020.12</p>
+            <div class="timeline__body">
+              <h3 class="timeline__company">아동복지실천회 세움 <span class="timeline__dept">사업부 · 서울형 뉴딜일자리</span></h3>
+              <ul class="timeline__tasks">
+                <li class="timeline__task">사무·행정 지원</li>
+                <li class="timeline__task">단체 행사(바자회) 포스터 디자인 제작</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <p class="timeline__period">2015.01 — 2019.12</p>
+            <div class="timeline__body">
+              <h3 class="timeline__company">사단법인 E.S.F <span class="timeline__dept">재정부</span></h3>
+              <ul class="timeline__tasks">
+                <li class="timeline__task">비영리법인 회계 — 수입·지출 정리, 월/연 재정보고, 감사 준비</li>
+                <li class="timeline__task">정책 변경에 따른 소득신고 실무 대응 — 현장직 72명 홈택스 신고 지원</li>
+                <li class="timeline__task">주요 행사·사업 영상편집 병행</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <div class="career__edu reveal">
+          <p class="career__edu-label">EDUCATION &amp; LICENSE</p>
+          <ul class="career__edu-list">
+            <li class="career__edu-item">나사렛대학교 방송미디어학 (2011 — 2015)</li>
+            <li class="career__edu-item">JLPT 2급 (2019)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT (WORKS: VIDEO / CARD NEWS) =====
+         카드는 HTML에 직접 쓰지 않고 js/script.js 상단 WORKS_DATA 배열을
+         읽어 자동으로 그려집니다. 작업물을 새로 추가/교체하려면
+         script.js의 WORKS_DATA 배열만 수정하면 됩니다 (자세한 방법은
+         script.js 안의 주석 참고). -->
+    <section class="projects section" id="project">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">PROJECT</p>
+          <h2 class="section__title">화면 밖에서 만든,<br />영상과 카드뉴스.</h2>
+          <p class="section__desc">
+            채널을 운영하며 기획·촬영·편집한 홍보 영상과, 정보를 압축해 전달한 카드뉴스입니다.
+            항목을 클릭하면 크게 볼 수 있어요.
+          </p>
+        </header>
+
+        <div class="works__filter reveal" role="tablist" aria-label="작업물 필터">
+          <button type="button" class="works__filter-btn is-active" data-filter="all" role="tab" aria-selected="true">ALL</button>
+          <button type="button" class="works__filter-btn" data-filter="video" role="tab" aria-selected="false">VIDEO</button>
+          <button type="button" class="works__filter-btn" data-filter="cardnews" role="tab" aria-selected="false">CARD NEWS</button>
+        </div>
+
+        <div class="works__grid" id="worksGrid" aria-live="polite">
+          <!-- work-card 요소들이 js/script.js 에 의해 여기 자동으로 삽입됩니다 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section section--dark" id="contact">
+      <div class="section__inner">
+        <p class="section__eyebrow section__eyebrow--light reveal">CONTACT</p>
+        <h2 class="contact__title reveal">
+          LET'S BUILD<br />
+          <span class="contact__title-point">THE NEXT SCREEN</span>
+        </h2>
+        <p class="contact__desc reveal">
+          새로운 채널을 겁내지 않고 시도해 온 것처럼, 새로운 화면도 끝까지 완성합니다.<br />
+          함께할 프로젝트가 있다면 편하게 연락해 주세요.
+        </p>
+
+        <ul class="contact__list reveal">
+          <li class="contact__item">
+            <span class="contact__label">EMAIL</span>
+            <a href="mailto:kskjpc@gmail.com" class="contact__value">kskjpc@gmail.com</a>
+          </li>
+          <li class="contact__item">
+            <span class="contact__label">PHONE</span>
+            <a href="tel:01044788393" class="contact__value">010. 4478. 8393</a>
+          </li>
+          <li class="contact__item">
+            <span class="contact__label">LOCATION</span>
+            <span class="contact__value">Seoul, Korea</span>
+          </li>
+        </ul>
+
+        <a href="mailto:kskjpc@gmail.com" class="btn btn--point reveal">SEND MAIL ↗</a>
+      </div>
+
+      <footer class="footer">
+        <p class="footer__copy">© 2026 WON HYUNGYEONG. Designed &amp; Published by myself.</p>
+        <a href="#top" class="footer__top" aria-label="맨 위로 이동">TOP ↑</a>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- ===== WORK MEDIA MODAL =====
+       카드를 클릭하면 뜨는 단일 모달. 영상 작업물이면 <video>를,
+       카드뉴스면 좌우로 넘기는 이미지 캐러셀을 보여준다.
+       무엇을 보여줄지는 js/script.js 가 work.category 값에 따라
+       그때그때 내용을 바꿔 끼워 넣는 방식으로 처리한다. -->
+  <div class="media-modal" id="mediaModal" aria-hidden="true">
+    <div class="media-modal__backdrop" data-modal-close></div>
+    <div class="media-modal__panel" role="dialog" aria-modal="true" aria-label="작업물 상세 보기">
+      <button type="button" class="media-modal__close" id="mediaModalClose" aria-label="닫기">✕</button>
+
+      <div class="media-modal__stage">
+        <video class="media-modal__video" id="mediaModalVideo" controls playsinline></video>
+
+        <div class="media-modal__carousel" id="mediaModalCarousel">
+          <button type="button" class="media-modal__nav media-modal__nav--prev" id="carouselPrev" aria-label="이전 이미지">‹</button>
+          <img class="media-modal__image" id="mediaModalImage" alt="" />
+          <button type="button" class="media-modal__nav media-modal__nav--next" id="carouselNext" aria-label="다음 이미지">›</button>
+          <div class="media-modal__counter" id="mediaModalCounter"></div>
+        </div>
+      </div>
+
+      <div class="media-modal__info">
+        <p class="media-modal__category" id="mediaModalCategory"></p>
+        <h3 class="media-modal__title" id="mediaModalTitle"></h3>
+        <p class="media-modal__desc" id="mediaModalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js?v=6"></script>
+</body>
+</html>
